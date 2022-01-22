@@ -37,5 +37,10 @@
     <string name="_0km_h">0km/h</string>
     <string name="total_calories_burned">Total Calories Burned</string>
     <string name="your_name">Your Name</string>
+    <string name="date_">DATE</string>
+    <string name="duration">DURATION</string>
+    <string name="avg_speed">AVG SPEED</string>
+    <string name="distance_">DISTANCE</string>
+    <string name="calories_burned">CALORIES BURNED</string>
     <!--   AIzaSyBlQ00SJuVgibJk1XqkCfjEWXXIAMfElcA-->
 </resources>
