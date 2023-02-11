@@ -4,22 +4,23 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/setupFragment">
 
-    <action android:id="@+id/action_global_trackingFragment"
-        app:destination="@+id/trackingFragment"
-        app:launchSingleTop="true"/>
+    <action
+        android:id="@+id/action_global_trackingFragment"
+        app:destination="@+id/fragmentRunTracking"
+        app:launchSingleTop="true" />
 
     <fragment
         android:id="@+id/runFragment"
         android:name="com.example.fitnessapp.ui.fragment.RunFragment"
-        android:label="RunFragment" >
+        android:label="RunFragment">
         <action
-            android:id="@+id/action_runFragment_to_trackingFragment"
-            app:destination="@id/trackingFragment" />
+            android:id="@+id/action_runFragment_to_fragmentRunTracking"
+            app:destination="@id/fragmentRunTracking" />
     </fragment>
     <fragment
         android:id="@+id/setupFragment"
         android:name="com.example.fitnessapp.ui.fragment.SetupFragment"
-        android:label="SetupFragment" >
+        android:label="SetupFragment">
         <action
             android:id="@+id/action_setupFragment_to_runFragment"
             app:destination="@id/runFragment" />
@@ -28,16 +29,17 @@
         android:id="@+id/statisticsFragment"
         android:name="com.example.fitnessapp.ui.fragment.StatisticsFragment"
         android:label="StatisticsFragment" />
-    <fragment
-        android:id="@+id/trackingFragment"
-        android:name="com.example.fitnessapp.ui.fragment.TrackingFragment"
-        android:label="TrackingFragment" >
-        <action
-            android:id="@+id/action_trackingFragment_to_runFragment"
-            app:destination="@id/runFragment" />
-    </fragment>
+
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.fitnessapp.ui.fragment.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/fragmentRunTracking"
+        android:name="com.example.fitnessapp.ui.fragment.FragmentRunTracking"
+        android:label="FragmentRunTracking">
+        <action
+            android:id="@+id/action_fragmentRunTracking_to_runFragment"
+            app:destination="@id/runFragment" />
+    </fragment>
 </navigation>

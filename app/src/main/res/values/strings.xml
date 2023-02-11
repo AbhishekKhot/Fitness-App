@@ -7,7 +7,8 @@
         <item>Average Speed</item>
         <item>Calories Burned</item>
     </string-array>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">Enter Google Map API key here</string>
+<!--    AIzaSyDmKGbxosZURxI_oVsJm8HW3k4ExlW5pkM-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDmKGbxosZURxI_oVsJm8HW3k4ExlW5pkM</string>
     <string name="your_runs">Your Runs</string>
     <string name="statistics">Statistics</string>
     <string name="settings">Settings</string>
@@ -22,7 +23,7 @@
     <string name="let_s_go_username">Let\'s go, USERNAME!</string>
     <string name="finish_run">Finish Run</string>
     <string name="start">Start</string>
-    <string name="sort_by">Sort by:</string>
+    <string name="sort_by">Sort by</string>
     <string name="welcome_nplease_enter_your_name_and_weight">Welcome!\nPlease enter your name and weight.</string>
     <string name="kg">kg</string>
     <string name="get_started">Get Started</string>
@@ -42,5 +43,7 @@
     <string name="avg_speed">AVG SPEED</string>
     <string name="distance_">DISTANCE</string>
     <string name="calories_burned">CALORIES BURNED</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!--   AIzaSyBlQ00SJuVgibJk1XqkCfjEWXXIAMfElcA-->
 </resources>
